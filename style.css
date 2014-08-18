@@ -13,18 +13,19 @@ h1{
 
 p{
   font-family: 'futura', helvetica, arial, Sans-Serif;
-  font-size: 1.5em;
-  line-height: 1.5em;
-  padding: 120px;
+  font-size: 1.25em;
+  line-height: 1.25em;
+  padding: 140px;
   text-align: left;
   overflow: hidden;
  max-width: 90%;
  margin: 0 auto;
+ letter-spacing: 1.5px;
 }
 
 #older{
   position: fixed;
-  z-index: 100;
+  z-index: 10;
   line-height: 120px;
   margin-top: -36px;
   margin-left: -100px;
@@ -33,13 +34,8 @@ p{
   left: 50%;
 }
 
-#BusyBox1
-{
+#BusyBox1{
 position: fixed;
-font-size: 0.8em;
-font-style: normal;
-font-weight: normal;
-text-align: center;
 top:-50%;
 height: 50%;
 padding: 0;
@@ -54,7 +50,9 @@ transition: 0.5s;
 #BusyBox1.active {
   top:0px;
 }
+.zLow{
 
+}
 #BusyBox2
 {
 position: fixed;
@@ -72,6 +70,7 @@ opacity: 1;
 -o-transition: 0.5s;
 transition: 0.5s;
 }
+
 #BusyBox2.active {
   bottom:0px;
 }
@@ -92,7 +91,7 @@ transition: 0.5s;
 }
 
 #BusyBox3.active {
-  left:0px;
+  left:1px;
 }
 
 #BusyBox4{
@@ -118,7 +117,6 @@ transition: 0.5s;
 .boxStyle{
   overflow: hidden;
   width: 100%;
-  z-index: 1;
   position: fixed;
 }
 .knap{
@@ -200,11 +198,11 @@ background-color: #98dbce;
 -webkit-transition: 0.5s;
 -o-transition: 0.5s;
 transition: 0.5s;
-z-index: 15;
 }
 
 #BusyBox3.active {
   left:0px;
+  z-index: 20;
 }
 
 #BusyBox4{
@@ -224,11 +222,11 @@ background-color: #ff4949;
 -webkit-transition: 0.5s;
 -o-transition: 0.5s;
 transition: 0.5s;
-z-index: 20;
 }
 
 #BusyBox4.active {
   right:0px;
+  z-index: 20;
 }
 
 #older{
@@ -242,7 +240,6 @@ z-index: 20;
   top: 50%;
   left: 50%;
 }
-
-
+/*Media Query end */
   
 }
