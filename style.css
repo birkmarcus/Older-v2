@@ -178,7 +178,10 @@ transition: 0.5s;
   overflow: hidden;
 
 }
-@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
+
+
+/*IPAD Portrat*/
+@media only screen and (device-width : 768px){
 
 
 #BusyBox3{
@@ -198,11 +201,11 @@ background-color: #98dbce;
 -webkit-transition: 0.5s;
 -o-transition: 0.5s;
 transition: 0.5s;
+z-index: 30;
 }
 
 #BusyBox3.active {
   left:0px;
-  z-index: 20;
 }
 
 #BusyBox4{
@@ -222,11 +225,11 @@ background-color: #ff4949;
 -webkit-transition: 0.5s;
 -o-transition: 0.5s;
 transition: 0.5s;
+z-index: 40;
 }
 
 #BusyBox4.active {
   right:0px;
-  z-index: 20;
 }
 
 #older{
@@ -234,12 +237,30 @@ transition: 0.5s;
   z-index: 10;
   line-height: 120px;
   margin-top: -20px;
-  margin-left: -50px;
+  margin-left: -100px;
   text-align: center;
-  width: 100px;
+  width: 200px;
   top: 50%;
   left: 50%;
 }
 /*Media Query end */
   
 }
+
+/*IPAD Landscape*/
+@media only screen and (device-width : 1024px){
+
+p{
+    font-size: 0.875em;
+    line-height: 1.225;
+    max-width: 100%;
+    letter-spacing: 1.5px;
+  }
+}
+
+
+
+/*MediaQuery Mobile*/
+
+
+
