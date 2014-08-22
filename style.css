@@ -50,6 +50,9 @@ transition: 0.5s;
 #BusyBox1.active {
   top:0px;
 }
+
+
+
 .zLow{
 
 }
@@ -137,6 +140,13 @@ transition: 0.5s;
   background-image:url('https://dl.dropboxusercontent.com/u/2621877/menuKnap2.png');
 }
 
+#knapTop.activeKnap{
+  background-image:url('https://dl.dropboxusercontent.com/u/2621877/menuX.png');
+  width: 17px;
+  height: 17px;
+  margin-left: -8.5px;
+}
+
 #knapBund{
   position: fixed;
   bottom: 24px;
@@ -146,6 +156,13 @@ transition: 0.5s;
   width: 22px;
   height: 20px;
   background-image:url('https://dl.dropboxusercontent.com/u/2621877/menuKnap2.png');
+}
+
+#knapBund.activeKnap{
+  background-image:url('https://dl.dropboxusercontent.com/u/2621877/menuX.png');
+  width: 17px;
+  height: 17px;
+  margin-left: -8.5px;
 }
 
 #knapVenstre{
@@ -159,6 +176,12 @@ transition: 0.5s;
   background-image:url('https://dl.dropboxusercontent.com/u/2621877/menuKnap2.png');
 }
 
+#knapVenstre.activeKnap{
+  background-image:url('https://dl.dropboxusercontent.com/u/2621877/menuX.png');
+  width: 17px;
+  height: 17px;
+}
+
 #knapHojre{
   position: fixed;
   right: 24px;
@@ -168,7 +191,12 @@ transition: 0.5s;
   width: 22px;
   height: 20px;
   background-image:url('https://dl.dropboxusercontent.com/u/2621877/menuKnap2.png');
+}
 
+#knapHojre.activeKnap{
+  background-image:url('https://dl.dropboxusercontent.com/u/2621877/menuX.png');
+  width: 17px;
+  height: 17px;
 }
 
 .image img{
