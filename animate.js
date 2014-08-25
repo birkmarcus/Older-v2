@@ -4,74 +4,50 @@ $(document).ready(function () {
 
 
     $("#knapTop").click(function () {
-        if($('#BusyBox1').hasClass('active')) {
-            $('#BusyBox1').removeClass('active');   
-        } else {
-            $('#BusyBox1').addClass('active');
-        }
+        $('#BusyBox1').toggleClass('active');
+        $(this).toggleClass('activeKnap');        
     });
 
     $("#knapBund").click(function () {
-        if($('#BusyBox2').hasClass('active')) {
-            $('#BusyBox2').removeClass('active');   
-        } else {
-            $('#BusyBox2').addClass('active');
-        }
+        $('#BusyBox2').toggleClass('active');
+        $(this).toggleClass('activeKnap');
     });
 
     $("#knapVenstre").click(function () {
-
-        if($('#BusyBox3').hasClass('active')) {
-            $('#BusyBox3').removeClass('active');   
-        } else {
-            $('#BusyBox3').addClass('active');
-        }
-
+        $('#BusyBox3').toggleClass('active');
+        $(this).toggleClass('activeKnap');
     });
 
     $("#knapHojre").click(function () {
-        if($('#BusyBox4').hasClass('active')) {
-            $('#BusyBox4').removeClass('active');   
-        } else {
-            $('#BusyBox4').addClass('active');
-        }
+        $('#BusyBox4').toggleClass('active');
+        $(this).toggleClass('activeKnap');
     });
 
 
 
+// $("#knapBund").click(function () {
+//         if($('#knapBund').hasClass('activeKnap')) {
+//             $('#knapBund').removeClass('activeKnap');   
+//         } else {
+//             $('#knapBund').addClass('activeKnap');
+//         }
+//     });
 
+// $("#knapVenstre").click(function () {file:///Users/Bruger/Dropbox/Older%20v2/Js-fiddle/index.html
+//         if($('#knapVenstre').hasClass('activeKnap')) {
+//             $('#knapVenstre').removeClass('activeKnap');   
+//         } else {
+//             $('#knapVenstre').addClass('activeKnap');
+//         }
+//     });
 
-$("#knapTop").click(function () {
-        if($('#knapTop').hasClass('activeKnap')) {
-            $('#knapTop').removeClass('activeKnap');   
-        } else {
-            $('#knapTop').addClass('activeKnap');
-        }
-    });
-
-$("#knapBund").click(function () {
-        if($('#knapBund').hasClass('activeKnap')) {
-            $('#knapBund').removeClass('activeKnap');   
-        } else {
-            $('#knapBund').addClass('activeKnap');
-        }
-    });
-
-$("#knapVenstre").click(function () {
-        if($('#knapVenstre').hasClass('activeKnap')) {
-            $('#knapVenstre').removeClass('activeKnap');   
-        } else {
-            $('#knapVenstre').addClass('activeKnap');
-        }
-    });
-
-$("#knapHojre").click(function () {
-        if($('#knapHojre').hasClass('activeKnap')) {
-            $('#knapHojre').removeClass('activeKnap');   
-        } else {
-            $('#knapHojre').addClass('activeKnap');
-        }
-    });
+// $("#knapHojre").click(function () {
+//         if($('#knapHojre').hasClass('activeKnap')) {
+//             $('#knapHojre').removeClass('activeKnap');   
+//         } else {
+//             $('#knapHojre').addClass('activeKnap');
+//         }
+//     });
 
 
     //BXSlider
